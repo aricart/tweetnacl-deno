@@ -1,4 +1,4 @@
-import { ByteArray } from './array.ts';
+import type { ByteArray } from './array.ts';
 import { SecretBoxLength } from './secretbox.ts';
 import { BoxLength } from './box.ts';
 

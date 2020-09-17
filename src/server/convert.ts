@@ -1,4 +1,4 @@
-import { ByteArray } from '../array.ts';
+import type { ByteArray } from '../array.ts';
 import { validateBase64, validateHex } from '../validate.ts';
 import * as base64 from "https://denopkg.com/chiefbiiko/base64/mod.ts";
 import { encodeToString, decodeString } from "https://deno.land/std@0.52.0/encoding/hex.ts";

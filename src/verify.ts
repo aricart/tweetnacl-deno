@@ -1,4 +1,4 @@
-import { ByteArray } from './array.ts';
+import type { ByteArray } from './array.ts';
 import { checkArrayTypes } from './check.ts';
 
 function vn(x: ByteArray, xi: number, y: ByteArray, yi: number, n: number): number {
